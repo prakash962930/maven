@@ -1,4 +1,5 @@
-- name: install the latest version of Apache
-  yum:
+- name: Start service httpd, if not started
+  service:
     name: httpd
-    state: latest
+    state: started
+    enabled: yes
