@@ -11,4 +11,5 @@
       - bind-utils #nslookup
       - tree
       - git
+      - php
     state: latest
