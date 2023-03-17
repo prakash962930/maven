@@ -11,5 +11,5 @@
       - bind-utils #nslookup
       - tree
       - git
-      - php
+      - pip
     state: latest
