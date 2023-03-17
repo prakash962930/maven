@@ -11,4 +11,5 @@
       - bind-utils #nslookup
       - tree
       - git
+      - pip
     state: latest
